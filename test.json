@@ -1,0 +1,3564 @@
+
+
+https://giromilano.atm.it/proxy.tpportal/api/tpPortal/tpl/stops/15371/linesummary
+
+{
+    "StopPoint": {
+      "OperatorCode": null,
+      "Code": "15371",
+      "Description": "G. Da Cermenate",
+      "Location": {
+        "X": 9.18343542907231,
+        "Y": 45.4377759969317
+      },
+      "PointType": 1,
+      "OtherLines": [],
+      "StopType": null,
+      "Links": []
+    },
+    "Lines": [
+      {
+        "Line": {
+          "LineId": "15",
+          "OperatorCode": "",
+          "LineCode": "15",
+          "LineDescription": "Rozzano (Via G. Rossa) - Duomo M1 M3",
+          "TransportMode": 0,
+          "Suburban": false,
+          "OtherRoutesAvailable": false,
+          "Radiobus": false,
+          "RadiobusCapolinea": false
+        },
+        "Direction": "0",
+        "BookletUrl": "https://orari.atm.it/15_15371.pdf",
+        "BookletUrl2": "15",
+        "WaitMessage": "4 min",
+        "JourneyPatternId": "15|0",
+        "TrafficBulletins": [],
+        "Links": [
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/15371/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "linesummary",
+        "Href": "tpl/stops/15371/linesummary",
+        "Title": null
+      }
+    ]
+  }
+
+  https://giromilano.atm.it/proxy.tpportal/api/tpPortal/tpl/journeyPatterns/15%7C0
+
+  {
+    "Id": "15|0",
+    "Code": "15",
+    "Direction": "0",
+    "Line": {
+      "OperatorCode": "",
+      "LineCode": "15",
+      "LineDescription": "Tram 15 Rozzano (Via G. Rossa) - Duomo M1 M3",
+      "Suburban": false,
+      "TransportMode": 1,
+      "OtherRoutesAvailable": true,
+      "Links": []
+    },
+    "Stops": [
+      {
+        "OperatorCode": "",
+        "Code": "18076",
+        "Description": "ROZZANO  Via G.Rossa ",
+        "Location": {
+          "X": 9.1499935,
+          "Y": 45.3769851
+        },
+        "PointType": 1,
+        "OtherLines": [],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/18076",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/18076/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/18076/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "18084",
+        "Description": "V.le Liguria Via G.Rossa  Rozzano ",
+        "Location": {
+          "X": 9.1492188,
+          "Y": 45.3786514
+        },
+        "PointType": 1,
+        "OtherLines": [],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/18084",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/18084/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/18084/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "18082",
+        "Description": "V.le Liguria Via delle Mimose  Rozzano ",
+        "Location": {
+          "X": 9.1551378,
+          "Y": 45.3806688
+        },
+        "PointType": 1,
+        "OtherLines": [],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/18082",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/18082/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/18082/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "18080",
+        "Description": "V.le Don Lonni  Rozzano ",
+        "Location": {
+          "X": 9.1590881,
+          "Y": 45.3819146
+        },
+        "PointType": 1,
+        "OtherLines": [],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/18080",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/18080/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/18080/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "18078",
+        "Description": "ROZZANO  Via Cabrini ",
+        "Location": {
+          "X": 9.1619903,
+          "Y": 45.3828646
+        },
+        "PointType": 1,
+        "OtherLines": [],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/18078",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/18078/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/18078/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11060",
+        "Description": "V.le Romagna  Rozzano ",
+        "Location": {
+          "X": 9.1672548,
+          "Y": 45.3834961
+        },
+        "PointType": 1,
+        "OtherLines": [],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11060",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11060/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11060/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11063",
+        "Description": "Via Grandi Via Buozzi  Rozzano ",
+        "Location": {
+          "X": 9.1705901,
+          "Y": 45.3839863
+        },
+        "PointType": 1,
+        "OtherLines": [],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11063",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11063/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11063/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11064",
+        "Description": "Via Curiel Viale Isonzo  Rozzano ",
+        "Location": {
+          "X": 9.1720747,
+          "Y": 45.3891598
+        },
+        "PointType": 1,
+        "OtherLines": [],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11064",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11064/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11064/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11066",
+        "Description": "Via Curiel Via Lambro  Rozzano ",
+        "Location": {
+          "X": 9.1729974,
+          "Y": 45.3943071
+        },
+        "PointType": 1,
+        "OtherLines": [],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11066",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11066/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11066/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11087",
+        "Description": "Via Curiel Via Maggi  Rozzano ",
+        "Location": {
+          "X": 9.1734312,
+          "Y": 45.3982761
+        },
+        "PointType": 1,
+        "OtherLines": [],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11087",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11087/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11087/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11093",
+        "Description": "Via dei Missaglia Via Baroni",
+        "Location": {
+          "X": 9.1746112,
+          "Y": 45.4038911
+        },
+        "PointType": 1,
+        "OtherLines": [
+          "3"
+        ],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11093",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11093/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11093/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11095",
+        "Description": "Via dei Missaglia  Scuola Santarosa ",
+        "Location": {
+          "X": 9.1747474,
+          "Y": 45.4066543
+        },
+        "PointType": 1,
+        "OtherLines": [
+          "3"
+        ],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11095",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11095/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11095/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11078",
+        "Description": "Via dei Missaglia Via Saponaro",
+        "Location": {
+          "X": 9.1743879,
+          "Y": 45.4102463
+        },
+        "PointType": 1,
+        "OtherLines": [
+          "3"
+        ],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11078",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11078/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11078/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11081",
+        "Description": "Via Dei Missaglia Via Feraboli",
+        "Location": {
+          "X": 9.1748475,
+          "Y": 45.4142422
+        },
+        "PointType": 1,
+        "OtherLines": [
+          "3"
+        ],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11081",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11081/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11081/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11105",
+        "Description": "Via dei Missaglia Via De Ruggiero",
+        "Location": {
+          "X": 9.1754608,
+          "Y": 45.4183008
+        },
+        "PointType": 1,
+        "OtherLines": [
+          "3"
+        ],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11105",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11105/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11105/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11108",
+        "Description": "Via dei Missaglia  Isola Anita ",
+        "Location": {
+          "X": 9.176932,
+          "Y": 45.4228262
+        },
+        "PointType": 1,
+        "OtherLines": [
+          "3"
+        ],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11108",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11108/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11108/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11110",
+        "Description": "Via dei Missaglia Via S. Abbondio",
+        "Location": {
+          "X": 9.1770652,
+          "Y": 45.4245452
+        },
+        "PointType": 1,
+        "OtherLines": [
+          "3"
+        ],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11110",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11110/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11110/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11111",
+        "Description": "Via dei Missaglia Via Boifava",
+        "Location": {
+          "X": 9.1772637,
+          "Y": 45.4267052
+        },
+        "PointType": 1,
+        "OtherLines": [
+          "3"
+        ],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11111",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11111/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11111/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11131",
+        "Description": "P.za Abbiategrasso M2",
+        "Location": {
+          "X": 9.1775792,
+          "Y": 45.4294771
+        },
+        "PointType": 1,
+        "OtherLines": [
+          "3"
+        ],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11131",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11131/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11131/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "15365",
+        "Description": "Medeghino",
+        "Location": {
+          "X": 9.1804746,
+          "Y": 45.4314708
+        },
+        "PointType": 1,
+        "OtherLines": [],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/15365",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/15365/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/15365/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "15367",
+        "Description": "Agrippa",
+        "Location": {
+          "X": 9.1830357,
+          "Y": 45.4327899
+        },
+        "PointType": 1,
+        "OtherLines": [],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/15367",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/15367/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/15367/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "15369",
+        "Description": "Volvinio",
+        "Location": {
+          "X": 9.1836939,
+          "Y": 45.4346792
+        },
+        "PointType": 1,
+        "OtherLines": [],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/15369",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/15369/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/15369/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "15371",
+        "Description": "G. Da Cermenate",
+        "Location": {
+          "X": 9.1834354,
+          "Y": 45.437776
+        },
+        "PointType": 1,
+        "OtherLines": [],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/15371",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/15371/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/15371/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "15373",
+        "Description": "Pezzotti",
+        "Location": {
+          "X": 9.1831654,
+          "Y": 45.4412689
+        },
+        "PointType": 1,
+        "OtherLines": [],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/15373",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/15373/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/15373/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "15375",
+        "Description": "Tibaldi",
+        "Location": {
+          "X": 9.183406,
+          "Y": 45.444464
+        },
+        "PointType": 1,
+        "OtherLines": [
+          "59",
+          "91"
+        ],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/15375",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/15375/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/15375/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "15377",
+        "Description": "Giambologna",
+        "Location": {
+          "X": 9.1846377,
+          "Y": 45.4457311
+        },
+        "PointType": 1,
+        "OtherLines": [],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/15377",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/15377/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/15377/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "15379",
+        "Description": "Castelbarco",
+        "Location": {
+          "X": 9.185594,
+          "Y": 45.448808
+        },
+        "PointType": 1,
+        "OtherLines": [],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/15379",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/15379/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/15379/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11459",
+        "Description": "P.ta Lodovica",
+        "Location": {
+          "X": 9.1865752,
+          "Y": 45.4516148
+        },
+        "PointType": 1,
+        "OtherLines": [
+          "59",
+          "79"
+        ],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11459",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11459/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11459/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11463",
+        "Description": "C.so Italia Via Lusardi",
+        "Location": {
+          "X": 9.1869912,
+          "Y": 45.4536844
+        },
+        "PointType": 1,
+        "OtherLines": [
+          "N15"
+        ],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11463",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11463/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11463/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11464",
+        "Description": "S.Sofia M4",
+        "Location": {
+          "X": 9.1874336,
+          "Y": 45.455961
+        },
+        "PointType": 1,
+        "OtherLines": [
+          "N15"
+        ],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11464",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11464/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11464/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11499",
+        "Description": "C.so Italia  Missori M3 ",
+        "Location": {
+          "X": 9.1881385,
+          "Y": 45.4602354
+        },
+        "PointType": 1,
+        "OtherLines": [
+          "N15"
+        ],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11499",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11499/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11499/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      },
+      {
+        "OperatorCode": "",
+        "Code": "11512",
+        "Description": "Duomo M1 M3",
+        "Location": {
+          "X": 9.1897091,
+          "Y": 45.4632662
+        },
+        "PointType": 1,
+        "OtherLines": [
+          "15"
+        ],
+        "StopType": "normal",
+        "Links": [
+          {
+            "Rel": "poi",
+            "Href": "geodata/pois/stops/11512",
+            "Title": null
+          },
+          {
+            "Rel": "linesummary",
+            "Href": "tpl/stops/11512/linesummary",
+            "Title": null
+          },
+          {
+            "Rel": "timetable",
+            "Href": "tpl/stops/11512/timetable/line/15/dir/0",
+            "Title": null
+          }
+        ]
+      }
+    ],
+    "Geometry": {
+      "Segments": [
+        {
+          "RGB": "#0000FF",
+          "Points": [
+            {
+              "X": 9.1499935,
+              "Y": 45.3769851
+            },
+            {
+              "X": 9.1498147,
+              "Y": 45.3770034
+            },
+            {
+              "X": 9.1496361,
+              "Y": 45.3770936
+            },
+            {
+              "X": 9.1495596,
+              "Y": 45.3771387
+            },
+            {
+              "X": 9.1495086,
+              "Y": 45.3771748
+            },
+            {
+              "X": 9.1493683,
+              "Y": 45.377238
+            },
+            {
+              "X": 9.1492535,
+              "Y": 45.3773011
+            },
+            {
+              "X": 9.149177,
+              "Y": 45.3773463
+            },
+            {
+              "X": 9.1491006,
+              "Y": 45.3774184
+            },
+            {
+              "X": 9.1490368,
+              "Y": 45.3774725
+            },
+            {
+              "X": 9.1490114,
+              "Y": 45.3775085
+            },
+            {
+              "X": 9.1487568,
+              "Y": 45.3778239
+            },
+            {
+              "X": 9.1486167,
+              "Y": 45.3779951
+            },
+            {
+              "X": 9.1485913,
+              "Y": 45.3780221
+            },
+            {
+              "X": 9.1485658,
+              "Y": 45.3780492
+            },
+            {
+              "X": 9.1485531,
+              "Y": 45.3780762
+            },
+            {
+              "X": 9.1485404,
+              "Y": 45.3780942
+            },
+            {
+              "X": 9.1485277,
+              "Y": 45.3781212
+            },
+            {
+              "X": 9.148515,
+              "Y": 45.3781482
+            },
+            {
+              "X": 9.148515,
+              "Y": 45.3781662
+            },
+            {
+              "X": 9.1485151,
+              "Y": 45.3781932
+            },
+            {
+              "X": 9.1485152,
+              "Y": 45.3782292
+            },
+            {
+              "X": 9.1485152,
+              "Y": 45.3782472
+            },
+            {
+              "X": 9.1485153,
+              "Y": 45.3782743
+            },
+            {
+              "X": 9.1485153,
+              "Y": 45.3782923
+            },
+            {
+              "X": 9.1485282,
+              "Y": 45.3783102
+            },
+            {
+              "X": 9.1485282,
+              "Y": 45.3783282
+            },
+            {
+              "X": 9.148541,
+              "Y": 45.3783372
+            },
+            {
+              "X": 9.148541,
+              "Y": 45.3783552
+            },
+            {
+              "X": 9.1485539,
+              "Y": 45.3783732
+            },
+            {
+              "X": 9.1485667,
+              "Y": 45.3783912
+            },
+            {
+              "X": 9.1485795,
+              "Y": 45.3784092
+            },
+            {
+              "X": 9.1486051,
+              "Y": 45.3784362
+            },
+            {
+              "X": 9.1486307,
+              "Y": 45.3784541
+            },
+            {
+              "X": 9.1486563,
+              "Y": 45.3784811
+            },
+            {
+              "X": 9.1486691,
+              "Y": 45.3784901
+            },
+            {
+              "X": 9.1487075,
+              "Y": 45.378508
+            },
+            {
+              "X": 9.1487459,
+              "Y": 45.378535
+            },
+            {
+              "X": 9.1487714,
+              "Y": 45.378544
+            },
+            {
+              "X": 9.1488226,
+              "Y": 45.3785619
+            },
+            {
+              "X": 9.1492188,
+              "Y": 45.3786514
+            },
+            {
+              "X": 9.1493467,
+              "Y": 45.3787412
+            },
+            {
+              "X": 9.1493851,
+              "Y": 45.3787502
+            },
+            {
+              "X": 9.1494234,
+              "Y": 45.3787681
+            },
+            {
+              "X": 9.149449,
+              "Y": 45.3787771
+            },
+            {
+              "X": 9.1494874,
+              "Y": 45.3788041
+            },
+            {
+              "X": 9.1495257,
+              "Y": 45.378813
+            },
+            {
+              "X": 9.1495513,
+              "Y": 45.378831
+            },
+            {
+              "X": 9.1495769,
+              "Y": 45.378849
+            },
+            {
+              "X": 9.1495897,
+              "Y": 45.3788579
+            },
+            {
+              "X": 9.1496153,
+              "Y": 45.3788669
+            },
+            {
+              "X": 9.1496281,
+              "Y": 45.3788759
+            },
+            {
+              "X": 9.1496536,
+              "Y": 45.3788849
+            },
+            {
+              "X": 9.1496792,
+              "Y": 45.3788938
+            },
+            {
+              "X": 9.1497048,
+              "Y": 45.3789028
+            },
+            {
+              "X": 9.1497559,
+              "Y": 45.3789207
+            },
+            {
+              "X": 9.1500627,
+              "Y": 45.3790283
+            },
+            {
+              "X": 9.1509703,
+              "Y": 45.3793242
+            },
+            {
+              "X": 9.1520314,
+              "Y": 45.3796738
+            },
+            {
+              "X": 9.1529135,
+              "Y": 45.3799697
+            },
+            {
+              "X": 9.1534632,
+              "Y": 45.380149
+            },
+            {
+              "X": 9.1537189,
+              "Y": 45.3802387
+            },
+            {
+              "X": 9.154307,
+              "Y": 45.3804449
+            },
+            {
+              "X": 9.1548312,
+              "Y": 45.3806152
+            },
+            {
+              "X": 9.1551378,
+              "Y": 45.3806688
+            },
+            {
+              "X": 9.15579,
+              "Y": 45.380938
+            },
+            {
+              "X": 9.1563653,
+              "Y": 45.3811262
+            },
+            {
+              "X": 9.157209,
+              "Y": 45.3813951
+            },
+            {
+              "X": 9.1580656,
+              "Y": 45.3816549
+            },
+            {
+              "X": 9.1590881,
+              "Y": 45.3819146
+            },
+            {
+              "X": 9.1592033,
+              "Y": 45.3820044
+            },
+            {
+              "X": 9.1600599,
+              "Y": 45.3822642
+            },
+            {
+              "X": 9.160469,
+              "Y": 45.3824077
+            },
+            {
+              "X": 9.1611467,
+              "Y": 45.3826498
+            },
+            {
+              "X": 9.1619903,
+              "Y": 45.3828646
+            },
+            {
+              "X": 9.1622078,
+              "Y": 45.3829903
+            },
+            {
+              "X": 9.16309,
+              "Y": 45.3832771
+            },
+            {
+              "X": 9.163448,
+              "Y": 45.3834026
+            },
+            {
+              "X": 9.1634864,
+              "Y": 45.3834116
+            },
+            {
+              "X": 9.1635758,
+              "Y": 45.3834384
+            },
+            {
+              "X": 9.1638443,
+              "Y": 45.3835281
+            },
+            {
+              "X": 9.1639722,
+              "Y": 45.3835639
+            },
+            {
+              "X": 9.1641,
+              "Y": 45.3835997
+            },
+            {
+              "X": 9.1641767,
+              "Y": 45.3836176
+            },
+            {
+              "X": 9.1643045,
+              "Y": 45.3836354
+            },
+            {
+              "X": 9.1643812,
+              "Y": 45.3836443
+            },
+            {
+              "X": 9.1644578,
+              "Y": 45.3836532
+            },
+            {
+              "X": 9.1645473,
+              "Y": 45.3836621
+            },
+            {
+              "X": 9.1646367,
+              "Y": 45.383671
+            },
+            {
+              "X": 9.1647389,
+              "Y": 45.3836798
+            },
+            {
+              "X": 9.1649433,
+              "Y": 45.3836795
+            },
+            {
+              "X": 9.1651221,
+              "Y": 45.3836703
+            },
+            {
+              "X": 9.1652754,
+              "Y": 45.383661
+            },
+            {
+              "X": 9.1659394,
+              "Y": 45.3836151
+            },
+            {
+              "X": 9.1668972,
+              "Y": 45.3835417
+            },
+            {
+              "X": 9.1672548,
+              "Y": 45.3834961
+            },
+            {
+              "X": 9.1678806,
+              "Y": 45.3834682
+            },
+            {
+              "X": 9.1688001,
+              "Y": 45.3834038
+            },
+            {
+              "X": 9.1694258,
+              "Y": 45.3833579
+            },
+            {
+              "X": 9.1695791,
+              "Y": 45.3833487
+            },
+            {
+              "X": 9.1697579,
+              "Y": 45.3833394
+            },
+            {
+              "X": 9.1698345,
+              "Y": 45.3833393
+            },
+            {
+              "X": 9.1699112,
+              "Y": 45.3833482
+            },
+            {
+              "X": 9.1699623,
+              "Y": 45.3833571
+            },
+            {
+              "X": 9.1700262,
+              "Y": 45.383375
+            },
+            {
+              "X": 9.1700774,
+              "Y": 45.3834019
+            },
+            {
+              "X": 9.170103,
+              "Y": 45.3834199
+            },
+            {
+              "X": 9.1701414,
+              "Y": 45.3834379
+            },
+            {
+              "X": 9.1701798,
+              "Y": 45.3834648
+            },
+            {
+              "X": 9.1702054,
+              "Y": 45.3834918
+            },
+            {
+              "X": 9.170231,
+              "Y": 45.3835187
+            },
+            {
+              "X": 9.1702695,
+              "Y": 45.3835727
+            },
+            {
+              "X": 9.1703208,
+              "Y": 45.3836446
+            },
+            {
+              "X": 9.1704107,
+              "Y": 45.3838065
+            },
+            {
+              "X": 9.1705901,
+              "Y": 45.3839863
+            },
+            {
+              "X": 9.170552,
+              "Y": 45.3840583
+            },
+            {
+              "X": 9.1707703,
+              "Y": 45.3844541
+            },
+            {
+              "X": 9.1708602,
+              "Y": 45.384625
+            },
+            {
+              "X": 9.1709245,
+              "Y": 45.3847509
+            },
+            {
+              "X": 9.1709758,
+              "Y": 45.3848318
+            },
+            {
+              "X": 9.1709887,
+              "Y": 45.3848678
+            },
+            {
+              "X": 9.1710016,
+              "Y": 45.3849038
+            },
+            {
+              "X": 9.1710145,
+              "Y": 45.3849488
+            },
+            {
+              "X": 9.1710274,
+              "Y": 45.3849938
+            },
+            {
+              "X": 9.1710404,
+              "Y": 45.3850747
+            },
+            {
+              "X": 9.1710406,
+              "Y": 45.3851198
+            },
+            {
+              "X": 9.171028,
+              "Y": 45.3852008
+            },
+            {
+              "X": 9.1710282,
+              "Y": 45.3852458
+            },
+            {
+              "X": 9.1710155,
+              "Y": 45.3852728
+            },
+            {
+              "X": 9.1710156,
+              "Y": 45.3853088
+            },
+            {
+              "X": 9.1709902,
+              "Y": 45.3853449
+            },
+            {
+              "X": 9.1709775,
+              "Y": 45.3853809
+            },
+            {
+              "X": 9.1709649,
+              "Y": 45.3854259
+            },
+            {
+              "X": 9.1709394,
+              "Y": 45.385471
+            },
+            {
+              "X": 9.1709268,
+              "Y": 45.385525
+            },
+            {
+              "X": 9.1709014,
+              "Y": 45.385579
+            },
+            {
+              "X": 9.170876,
+              "Y": 45.3856241
+            },
+            {
+              "X": 9.1708634,
+              "Y": 45.3856691
+            },
+            {
+              "X": 9.1708507,
+              "Y": 45.3856961
+            },
+            {
+              "X": 9.170838,
+              "Y": 45.3857231
+            },
+            {
+              "X": 9.170838,
+              "Y": 45.3857321
+            },
+            {
+              "X": 9.1708253,
+              "Y": 45.3857592
+            },
+            {
+              "X": 9.1708254,
+              "Y": 45.3857772
+            },
+            {
+              "X": 9.1708254,
+              "Y": 45.3857862
+            },
+            {
+              "X": 9.1708127,
+              "Y": 45.3858042
+            },
+            {
+              "X": 9.1708128,
+              "Y": 45.3858312
+            },
+            {
+              "X": 9.1708129,
+              "Y": 45.3858582
+            },
+            {
+              "X": 9.170813,
+              "Y": 45.3858942
+            },
+            {
+              "X": 9.1708003,
+              "Y": 45.3859302
+            },
+            {
+              "X": 9.1708004,
+              "Y": 45.3859752
+            },
+            {
+              "X": 9.1708135,
+              "Y": 45.3860652
+            },
+            {
+              "X": 9.1708135,
+              "Y": 45.3860832
+            },
+            {
+              "X": 9.1708523,
+              "Y": 45.3862272
+            },
+            {
+              "X": 9.1711232,
+              "Y": 45.3870999
+            },
+            {
+              "X": 9.1714963,
+              "Y": 45.3879815
+            },
+            {
+              "X": 9.1720747,
+              "Y": 45.3891598
+            },
+            {
+              "X": 9.1720883,
+              "Y": 45.3894388
+            },
+            {
+              "X": 9.1722041,
+              "Y": 45.3897087
+            },
+            {
+              "X": 9.1723845,
+              "Y": 45.3902125
+            },
+            {
+              "X": 9.172475,
+              "Y": 45.3905454
+            },
+            {
+              "X": 9.1725404,
+              "Y": 45.3910494
+            },
+            {
+              "X": 9.1727763,
+              "Y": 45.3930293
+            },
+            {
+              "X": 9.1728153,
+              "Y": 45.3932273
+            },
+            {
+              "X": 9.1728285,
+              "Y": 45.3933893
+            },
+            {
+              "X": 9.1728287,
+              "Y": 45.3934343
+            },
+            {
+              "X": 9.1728418,
+              "Y": 45.3935513
+            },
+            {
+              "X": 9.1728549,
+              "Y": 45.3936503
+            },
+            {
+              "X": 9.1728553,
+              "Y": 45.3937673
+            },
+            {
+              "X": 9.1728814,
+              "Y": 45.3939563
+            },
+            {
+              "X": 9.1729076,
+              "Y": 45.3941723
+            },
+            {
+              "X": 9.1729974,
+              "Y": 45.3943071
+            },
+            {
+              "X": 9.1729339,
+              "Y": 45.3944063
+            },
+            {
+              "X": 9.1730258,
+              "Y": 45.3952162
+            },
+            {
+              "X": 9.1731437,
+              "Y": 45.3961882
+            },
+            {
+              "X": 9.1732354,
+              "Y": 45.3969262
+            },
+            {
+              "X": 9.173301,
+              "Y": 45.3975021
+            },
+            {
+              "X": 9.1734312,
+              "Y": 45.3982761
+            },
+            {
+              "X": 9.1734192,
+              "Y": 45.3985371
+            },
+            {
+              "X": 9.1735374,
+              "Y": 45.3995901
+            },
+            {
+              "X": 9.1735765,
+              "Y": 45.3998331
+            },
+            {
+              "X": 9.1735766,
+              "Y": 45.3998781
+            },
+            {
+              "X": 9.1736158,
+              "Y": 45.4001661
+            },
+            {
+              "X": 9.1736554,
+              "Y": 45.4005621
+            },
+            {
+              "X": 9.1736685,
+              "Y": 45.400661
+            },
+            {
+              "X": 9.1736816,
+              "Y": 45.400787
+            },
+            {
+              "X": 9.1736945,
+              "Y": 45.400823
+            },
+            {
+              "X": 9.1736947,
+              "Y": 45.400868
+            },
+            {
+              "X": 9.1737076,
+              "Y": 45.400913
+            },
+            {
+              "X": 9.1737205,
+              "Y": 45.400967
+            },
+            {
+              "X": 9.1737335,
+              "Y": 45.401048
+            },
+            {
+              "X": 9.1737853,
+              "Y": 45.401264
+            },
+            {
+              "X": 9.1738759,
+              "Y": 45.4016239
+            },
+            {
+              "X": 9.1739535,
+              "Y": 45.4019568
+            },
+            {
+              "X": 9.1740313,
+              "Y": 45.4023167
+            },
+            {
+              "X": 9.174083,
+              "Y": 45.4025057
+            },
+            {
+              "X": 9.174109,
+              "Y": 45.4026497
+            },
+            {
+              "X": 9.1741348,
+              "Y": 45.4027306
+            },
+            {
+              "X": 9.1741737,
+              "Y": 45.4029016
+            },
+            {
+              "X": 9.1741867,
+              "Y": 45.4029736
+            },
+            {
+              "X": 9.1741995,
+              "Y": 45.4030006
+            },
+            {
+              "X": 9.1742124,
+              "Y": 45.4030366
+            },
+            {
+              "X": 9.1742253,
+              "Y": 45.4030815
+            },
+            {
+              "X": 9.1742382,
+              "Y": 45.4030995
+            },
+            {
+              "X": 9.1742511,
+              "Y": 45.4031625
+            },
+            {
+              "X": 9.1742769,
+              "Y": 45.4032255
+            },
+            {
+              "X": 9.1743155,
+              "Y": 45.4033154
+            },
+            {
+              "X": 9.1743541,
+              "Y": 45.4034144
+            },
+            {
+              "X": 9.1744056,
+              "Y": 45.4035313
+            },
+            {
+              "X": 9.1745472,
+              "Y": 45.4038642
+            },
+            {
+              "X": 9.1746112,
+              "Y": 45.4038911
+            },
+            {
+              "X": 9.1745987,
+              "Y": 45.4039901
+            },
+            {
+              "X": 9.1746245,
+              "Y": 45.4040621
+            },
+            {
+              "X": 9.1746373,
+              "Y": 45.4040891
+            },
+            {
+              "X": 9.1746503,
+              "Y": 45.404143
+            },
+            {
+              "X": 9.1747018,
+              "Y": 45.404269
+            },
+            {
+              "X": 9.1747146,
+              "Y": 45.404296
+            },
+            {
+              "X": 9.1747147,
+              "Y": 45.404323
+            },
+            {
+              "X": 9.1747275,
+              "Y": 45.404341
+            },
+            {
+              "X": 9.1747276,
+              "Y": 45.404359
+            },
+            {
+              "X": 9.1747405,
+              "Y": 45.4043949
+            },
+            {
+              "X": 9.1747406,
+              "Y": 45.40444
+            },
+            {
+              "X": 9.1747665,
+              "Y": 45.4045299
+            },
+            {
+              "X": 9.1747795,
+              "Y": 45.4046019
+            },
+            {
+              "X": 9.1747925,
+              "Y": 45.4047009
+            },
+            {
+              "X": 9.1748447,
+              "Y": 45.4050249
+            },
+            {
+              "X": 9.1748583,
+              "Y": 45.4053129
+            },
+            {
+              "X": 9.1748586,
+              "Y": 45.4054119
+            },
+            {
+              "X": 9.1748589,
+              "Y": 45.4055019
+            },
+            {
+              "X": 9.1748593,
+              "Y": 45.4056189
+            },
+            {
+              "X": 9.1748472,
+              "Y": 45.405862
+            },
+            {
+              "X": 9.1748096,
+              "Y": 45.4060871
+            },
+            {
+              "X": 9.1747719,
+              "Y": 45.4062852
+            },
+            {
+              "X": 9.1747214,
+              "Y": 45.4064923
+            },
+            {
+              "X": 9.1746962,
+              "Y": 45.4066003
+            },
+            {
+              "X": 9.1747474,
+              "Y": 45.4066543
+            },
+            {
+              "X": 9.1746583,
+              "Y": 45.4067624
+            },
+            {
+              "X": 9.1745698,
+              "Y": 45.4070686
+            },
+            {
+              "X": 9.1745448,
+              "Y": 45.4072306
+            },
+            {
+              "X": 9.1744311,
+              "Y": 45.4076809
+            },
+            {
+              "X": 9.1744058,
+              "Y": 45.4077619
+            },
+            {
+              "X": 9.1743933,
+              "Y": 45.407843
+            },
+            {
+              "X": 9.174368,
+              "Y": 45.407924
+            },
+            {
+              "X": 9.1743555,
+              "Y": 45.408005
+            },
+            {
+              "X": 9.1743302,
+              "Y": 45.4080861
+            },
+            {
+              "X": 9.1743177,
+              "Y": 45.4081851
+            },
+            {
+              "X": 9.1743052,
+              "Y": 45.4082662
+            },
+            {
+              "X": 9.1742927,
+              "Y": 45.4083832
+            },
+            {
+              "X": 9.1742676,
+              "Y": 45.4085183
+            },
+            {
+              "X": 9.1742677,
+              "Y": 45.4085633
+            },
+            {
+              "X": 9.1742678,
+              "Y": 45.4085993
+            },
+            {
+              "X": 9.1742434,
+              "Y": 45.4089684
+            },
+            {
+              "X": 9.1742315,
+              "Y": 45.4092474
+            },
+            {
+              "X": 9.1742847,
+              "Y": 45.4099404
+            },
+            {
+              "X": 9.174298,
+              "Y": 45.4100844
+            },
+            {
+              "X": 9.1743109,
+              "Y": 45.4101384
+            },
+            {
+              "X": 9.1743879,
+              "Y": 45.4102463
+            },
+            {
+              "X": 9.1743242,
+              "Y": 45.4103094
+            },
+            {
+              "X": 9.1743374,
+              "Y": 45.4104444
+            },
+            {
+              "X": 9.1743636,
+              "Y": 45.4106514
+            },
+            {
+              "X": 9.1743902,
+              "Y": 45.4109934
+            },
+            {
+              "X": 9.1744299,
+              "Y": 45.4114434
+            },
+            {
+              "X": 9.1745229,
+              "Y": 45.4125774
+            },
+            {
+              "X": 9.1745881,
+              "Y": 45.4130094
+            },
+            {
+              "X": 9.1748475,
+              "Y": 45.4142422
+            },
+            {
+              "X": 9.174797,
+              "Y": 45.4144223
+            },
+            {
+              "X": 9.1747971,
+              "Y": 45.4144583
+            },
+            {
+              "X": 9.1748753,
+              "Y": 45.4149442
+            },
+            {
+              "X": 9.1749537,
+              "Y": 45.4155292
+            },
+            {
+              "X": 9.1750449,
+              "Y": 45.4160781
+            },
+            {
+              "X": 9.1751887,
+              "Y": 45.4171131
+            },
+            {
+              "X": 9.1754608,
+              "Y": 45.4183008
+            },
+            {
+              "X": 9.1753976,
+              "Y": 45.4185259
+            },
+            {
+              "X": 9.1754497,
+              "Y": 45.4188589
+            },
+            {
+              "X": 9.175476,
+              "Y": 45.4190839
+            },
+            {
+              "X": 9.1755152,
+              "Y": 45.4193539
+            },
+            {
+              "X": 9.1755413,
+              "Y": 45.4195249
+            },
+            {
+              "X": 9.1755672,
+              "Y": 45.4196508
+            },
+            {
+              "X": 9.1755931,
+              "Y": 45.4197498
+            },
+            {
+              "X": 9.175619,
+              "Y": 45.4198758
+            },
+            {
+              "X": 9.1756448,
+              "Y": 45.4199478
+            },
+            {
+              "X": 9.1756706,
+              "Y": 45.4200287
+            },
+            {
+              "X": 9.1757221,
+              "Y": 45.4201457
+            },
+            {
+              "X": 9.1757608,
+              "Y": 45.4202536
+            },
+            {
+              "X": 9.1758123,
+              "Y": 45.4203616
+            },
+            {
+              "X": 9.1758509,
+              "Y": 45.4204425
+            },
+            {
+              "X": 9.1759022,
+              "Y": 45.4205234
+            },
+            {
+              "X": 9.1759408,
+              "Y": 45.4206044
+            },
+            {
+              "X": 9.1760308,
+              "Y": 45.4207573
+            },
+            {
+              "X": 9.1761849,
+              "Y": 45.4210091
+            },
+            {
+              "X": 9.1763006,
+              "Y": 45.4212069
+            },
+            {
+              "X": 9.1764418,
+              "Y": 45.4214137
+            },
+            {
+              "X": 9.1764932,
+              "Y": 45.4214857
+            },
+            {
+              "X": 9.1765061,
+              "Y": 45.4215217
+            },
+            {
+              "X": 9.1765318,
+              "Y": 45.4215666
+            },
+            {
+              "X": 9.1765575,
+              "Y": 45.4216026
+            },
+            {
+              "X": 9.1765704,
+              "Y": 45.4216386
+            },
+            {
+              "X": 9.176596,
+              "Y": 45.4216745
+            },
+            {
+              "X": 9.1766089,
+              "Y": 45.4217105
+            },
+            {
+              "X": 9.1766346,
+              "Y": 45.4217465
+            },
+            {
+              "X": 9.1766475,
+              "Y": 45.4217735
+            },
+            {
+              "X": 9.1766732,
+              "Y": 45.4218274
+            },
+            {
+              "X": 9.1766861,
+              "Y": 45.4218724
+            },
+            {
+              "X": 9.1767118,
+              "Y": 45.4219084
+            },
+            {
+              "X": 9.1767247,
+              "Y": 45.4219534
+            },
+            {
+              "X": 9.1767377,
+              "Y": 45.4219984
+            },
+            {
+              "X": 9.1767634,
+              "Y": 45.4220613
+            },
+            {
+              "X": 9.1767764,
+              "Y": 45.4221153
+            },
+            {
+              "X": 9.1767893,
+              "Y": 45.4221513
+            },
+            {
+              "X": 9.1768022,
+              "Y": 45.4221963
+            },
+            {
+              "X": 9.1768023,
+              "Y": 45.4222323
+            },
+            {
+              "X": 9.1768152,
+              "Y": 45.4222593
+            },
+            {
+              "X": 9.1768282,
+              "Y": 45.4223403
+            },
+            {
+              "X": 9.1768413,
+              "Y": 45.4224393
+            },
+            {
+              "X": 9.1768547,
+              "Y": 45.4226283
+            },
+            {
+              "X": 9.176932,
+              "Y": 45.4228262
+            },
+            {
+              "X": 9.1768943,
+              "Y": 45.4230333
+            },
+            {
+              "X": 9.1770652,
+              "Y": 45.4245452
+            },
+            {
+              "X": 9.1771069,
+              "Y": 45.4256343
+            },
+            {
+              "X": 9.1771338,
+              "Y": 45.4260393
+            },
+            {
+              "X": 9.1771601,
+              "Y": 45.4262733
+            },
+            {
+              "X": 9.1771733,
+              "Y": 45.4264353
+            },
+            {
+              "X": 9.1771738,
+              "Y": 45.4265973
+            },
+            {
+              "X": 9.1772637,
+              "Y": 45.4267052
+            },
+            {
+              "X": 9.1772,
+              "Y": 45.4267773
+            },
+            {
+              "X": 9.1772263,
+              "Y": 45.4270113
+            },
+            {
+              "X": 9.1772658,
+              "Y": 45.4273713
+            },
+            {
+              "X": 9.1772919,
+              "Y": 45.4275693
+            },
+            {
+              "X": 9.1774103,
+              "Y": 45.4286132
+            },
+            {
+              "X": 9.1774365,
+              "Y": 45.4288382
+            },
+            {
+              "X": 9.1775792,
+              "Y": 45.4294771
+            },
+            {
+              "X": 9.1775415,
+              "Y": 45.4297022
+            },
+            {
+              "X": 9.1775545,
+              "Y": 45.4297652
+            },
+            {
+              "X": 9.1775674,
+              "Y": 45.4298102
+            },
+            {
+              "X": 9.1775803,
+              "Y": 45.4298462
+            },
+            {
+              "X": 9.1775932,
+              "Y": 45.4298731
+            },
+            {
+              "X": 9.1776189,
+              "Y": 45.4299181
+            },
+            {
+              "X": 9.1776446,
+              "Y": 45.4299541
+            },
+            {
+              "X": 9.1776703,
+              "Y": 45.429999
+            },
+            {
+              "X": 9.1776959,
+              "Y": 45.430017
+            },
+            {
+              "X": 9.1777216,
+              "Y": 45.430062
+            },
+            {
+              "X": 9.1777473,
+              "Y": 45.4300889
+            },
+            {
+              "X": 9.1777601,
+              "Y": 45.4301069
+            },
+            {
+              "X": 9.1777858,
+              "Y": 45.4301339
+            },
+            {
+              "X": 9.1778114,
+              "Y": 45.4301518
+            },
+            {
+              "X": 9.1778627,
+              "Y": 45.4301968
+            },
+            {
+              "X": 9.1779267,
+              "Y": 45.4302417
+            },
+            {
+              "X": 9.1780292,
+              "Y": 45.4303045
+            },
+            {
+              "X": 9.1780804,
+              "Y": 45.4303224
+            },
+            {
+              "X": 9.1781572,
+              "Y": 45.4303673
+            },
+            {
+              "X": 9.1783109,
+              "Y": 45.4304391
+            },
+            {
+              "X": 9.1785925,
+              "Y": 45.4305737
+            },
+            {
+              "X": 9.1786822,
+              "Y": 45.4306185
+            },
+            {
+              "X": 9.1787974,
+              "Y": 45.4306724
+            },
+            {
+              "X": 9.1804746,
+              "Y": 45.4314708
+            },
+            {
+              "X": 9.1820627,
+              "Y": 45.4323504
+            },
+            {
+              "X": 9.1825493,
+              "Y": 45.4326017
+            },
+            {
+              "X": 9.1830357,
+              "Y": 45.4327899
+            },
+            {
+              "X": 9.1830103,
+              "Y": 45.432844
+            },
+            {
+              "X": 9.1830744,
+              "Y": 45.4328709
+            },
+            {
+              "X": 9.1831,
+              "Y": 45.4328889
+            },
+            {
+              "X": 9.1831512,
+              "Y": 45.4329068
+            },
+            {
+              "X": 9.1831768,
+              "Y": 45.4329247
+            },
+            {
+              "X": 9.1832025,
+              "Y": 45.4329517
+            },
+            {
+              "X": 9.1832537,
+              "Y": 45.4329876
+            },
+            {
+              "X": 9.1832666,
+              "Y": 45.4330056
+            },
+            {
+              "X": 9.1832922,
+              "Y": 45.4330146
+            },
+            {
+              "X": 9.183305,
+              "Y": 45.4330325
+            },
+            {
+              "X": 9.1833307,
+              "Y": 45.4330685
+            },
+            {
+              "X": 9.1833564,
+              "Y": 45.4331045
+            },
+            {
+              "X": 9.1833693,
+              "Y": 45.4331405
+            },
+            {
+              "X": 9.183395,
+              "Y": 45.4331854
+            },
+            {
+              "X": 9.1834335,
+              "Y": 45.4332484
+            },
+            {
+              "X": 9.183472,
+              "Y": 45.4332933
+            },
+            {
+              "X": 9.1834849,
+              "Y": 45.4333203
+            },
+            {
+              "X": 9.1835106,
+              "Y": 45.4333563
+            },
+            {
+              "X": 9.1835363,
+              "Y": 45.4334012
+            },
+            {
+              "X": 9.1836647,
+              "Y": 45.433572
+            },
+            {
+              "X": 9.1837033,
+              "Y": 45.433635
+            },
+            {
+              "X": 9.1837162,
+              "Y": 45.433671
+            },
+            {
+              "X": 9.183667,
+              "Y": 45.4342651
+            },
+            {
+              "X": 9.1836939,
+              "Y": 45.4346792
+            },
+            {
+              "X": 9.183618,
+              "Y": 45.4349223
+            },
+            {
+              "X": 9.1835444,
+              "Y": 45.4358946
+            },
+            {
+              "X": 9.1835445,
+              "Y": 45.4359306
+            },
+            {
+              "X": 9.1835196,
+              "Y": 45.4361286
+            },
+            {
+              "X": 9.1834709,
+              "Y": 45.4368848
+            },
+            {
+              "X": 9.1834719,
+              "Y": 45.4371819
+            },
+            {
+              "X": 9.1834217,
+              "Y": 45.437497
+            },
+            {
+              "X": 9.1834354,
+              "Y": 45.437776
+            },
+            {
+              "X": 9.1833848,
+              "Y": 45.4379381
+            },
+            {
+              "X": 9.1832615,
+              "Y": 45.4393425
+            },
+            {
+              "X": 9.1831263,
+              "Y": 45.4410259
+            },
+            {
+              "X": 9.1831654,
+              "Y": 45.4412689
+            },
+            {
+              "X": 9.1830401,
+              "Y": 45.4420342
+            },
+            {
+              "X": 9.1829788,
+              "Y": 45.4428714
+            },
+            {
+              "X": 9.1829792,
+              "Y": 45.4429704
+            },
+            {
+              "X": 9.1829666,
+              "Y": 45.4430335
+            },
+            {
+              "X": 9.1829541,
+              "Y": 45.4431235
+            },
+            {
+              "X": 9.1829415,
+              "Y": 45.4431955
+            },
+            {
+              "X": 9.1829161,
+              "Y": 45.4432586
+            },
+            {
+              "X": 9.1829035,
+              "Y": 45.4433036
+            },
+            {
+              "X": 9.1828909,
+              "Y": 45.4433666
+            },
+            {
+              "X": 9.1828655,
+              "Y": 45.4434207
+            },
+            {
+              "X": 9.1828529,
+              "Y": 45.4434567
+            },
+            {
+              "X": 9.1828402,
+              "Y": 45.4434927
+            },
+            {
+              "X": 9.1828403,
+              "Y": 45.4435197
+            },
+            {
+              "X": 9.1828276,
+              "Y": 45.4435468
+            },
+            {
+              "X": 9.1828149,
+              "Y": 45.4435828
+            },
+            {
+              "X": 9.1828024,
+              "Y": 45.4436638
+            },
+            {
+              "X": 9.1827898,
+              "Y": 45.4437178
+            },
+            {
+              "X": 9.1827268,
+              "Y": 45.444024
+            },
+            {
+              "X": 9.1827142,
+              "Y": 45.444069
+            },
+            {
+              "X": 9.1827143,
+              "Y": 45.444096
+            },
+            {
+              "X": 9.1827016,
+              "Y": 45.444132
+            },
+            {
+              "X": 9.1827017,
+              "Y": 45.444168
+            },
+            {
+              "X": 9.1827018,
+              "Y": 45.444186
+            },
+            {
+              "X": 9.1827018,
+              "Y": 45.444195
+            },
+            {
+              "X": 9.1827019,
+              "Y": 45.4442401
+            },
+            {
+              "X": 9.1827276,
+              "Y": 45.444267
+            },
+            {
+              "X": 9.1827404,
+              "Y": 45.444285
+            },
+            {
+              "X": 9.1827405,
+              "Y": 45.444294
+            },
+            {
+              "X": 9.1827789,
+              "Y": 45.4443209
+            },
+            {
+              "X": 9.1828046,
+              "Y": 45.4443389
+            },
+            {
+              "X": 9.1828302,
+              "Y": 45.4443479
+            },
+            {
+              "X": 9.1828558,
+              "Y": 45.4443658
+            },
+            {
+              "X": 9.1828942,
+              "Y": 45.4443748
+            },
+            {
+              "X": 9.183406,
+              "Y": 45.444464
+            },
+            {
+              "X": 9.1834062,
+              "Y": 45.444527
+            },
+            {
+              "X": 9.1837261,
+              "Y": 45.4446165
+            },
+            {
+              "X": 9.1841357,
+              "Y": 45.4447418
+            },
+            {
+              "X": 9.1841998,
+              "Y": 45.4447777
+            },
+            {
+              "X": 9.1842638,
+              "Y": 45.4448046
+            },
+            {
+              "X": 9.1842894,
+              "Y": 45.4448226
+            },
+            {
+              "X": 9.1843023,
+              "Y": 45.4448406
+            },
+            {
+              "X": 9.1843408,
+              "Y": 45.4448765
+            },
+            {
+              "X": 9.1843537,
+              "Y": 45.4449125
+            },
+            {
+              "X": 9.1845347,
+              "Y": 45.4455243
+            },
+            {
+              "X": 9.1846377,
+              "Y": 45.4457311
+            },
+            {
+              "X": 9.1849742,
+              "Y": 45.4469728
+            },
+            {
+              "X": 9.1852843,
+              "Y": 45.4479624
+            },
+            {
+              "X": 9.185594,
+              "Y": 45.448808
+            },
+            {
+              "X": 9.1856592,
+              "Y": 45.449186
+            },
+            {
+              "X": 9.1857238,
+              "Y": 45.4493839
+            },
+            {
+              "X": 9.1857753,
+              "Y": 45.4494918
+            },
+            {
+              "X": 9.1858398,
+              "Y": 45.4496627
+            },
+            {
+              "X": 9.185917,
+              "Y": 45.4497976
+            },
+            {
+              "X": 9.1859298,
+              "Y": 45.4498246
+            },
+            {
+              "X": 9.1859814,
+              "Y": 45.4499505
+            },
+            {
+              "X": 9.18602,
+              "Y": 45.4500225
+            },
+            {
+              "X": 9.1860459,
+              "Y": 45.4501305
+            },
+            {
+              "X": 9.1861105,
+              "Y": 45.4503104
+            },
+            {
+              "X": 9.1861235,
+              "Y": 45.4503914
+            },
+            {
+              "X": 9.186201,
+              "Y": 45.4506073
+            },
+            {
+              "X": 9.1863174,
+              "Y": 45.4510121
+            },
+            {
+              "X": 9.1863691,
+              "Y": 45.4511831
+            },
+            {
+              "X": 9.1864596,
+              "Y": 45.45148
+            },
+            {
+              "X": 9.1865752,
+              "Y": 45.4516148
+            },
+            {
+              "X": 9.1866016,
+              "Y": 45.4518848
+            },
+            {
+              "X": 9.1866924,
+              "Y": 45.4522627
+            },
+            {
+              "X": 9.1867054,
+              "Y": 45.4523167
+            },
+            {
+              "X": 9.1867183,
+              "Y": 45.4523617
+            },
+            {
+              "X": 9.1867442,
+              "Y": 45.4524606
+            },
+            {
+              "X": 9.1867573,
+              "Y": 45.4525416
+            },
+            {
+              "X": 9.1867964,
+              "Y": 45.4527846
+            },
+            {
+              "X": 9.1868752,
+              "Y": 45.4534055
+            },
+            {
+              "X": 9.1869912,
+              "Y": 45.4536844
+            },
+            {
+              "X": 9.1869796,
+              "Y": 45.4540445
+            },
+            {
+              "X": 9.1870451,
+              "Y": 45.4545034
+            },
+            {
+              "X": 9.1870972,
+              "Y": 45.4548004
+            },
+            {
+              "X": 9.1871622,
+              "Y": 45.4551063
+            },
+            {
+              "X": 9.1871883,
+              "Y": 45.4552683
+            },
+            {
+              "X": 9.1872663,
+              "Y": 45.4556552
+            },
+            {
+              "X": 9.1874336,
+              "Y": 45.455961
+            },
+            {
+              "X": 9.1873701,
+              "Y": 45.4560781
+            },
+            {
+              "X": 9.187383,
+              "Y": 45.4561321
+            },
+            {
+              "X": 9.1873962,
+              "Y": 45.4562581
+            },
+            {
+              "X": 9.1874223,
+              "Y": 45.456402
+            },
+            {
+              "X": 9.1874629,
+              "Y": 45.4570681
+            },
+            {
+              "X": 9.187463,
+              "Y": 45.4571131
+            },
+            {
+              "X": 9.1874889,
+              "Y": 45.457203
+            },
+            {
+              "X": 9.1875153,
+              "Y": 45.457455
+            },
+            {
+              "X": 9.1875284,
+              "Y": 45.457545
+            },
+            {
+              "X": 9.1875417,
+              "Y": 45.457698
+            },
+            {
+              "X": 9.1875549,
+              "Y": 45.457815
+            },
+            {
+              "X": 9.187581,
+              "Y": 45.457968
+            },
+            {
+              "X": 9.1875813,
+              "Y": 45.458067
+            },
+            {
+              "X": 9.1876073,
+              "Y": 45.458211
+            },
+            {
+              "X": 9.1876333,
+              "Y": 45.458328
+            },
+            {
+              "X": 9.1876852,
+              "Y": 45.4585439
+            },
+            {
+              "X": 9.187737,
+              "Y": 45.4587508
+            },
+            {
+              "X": 9.1879183,
+              "Y": 45.4594256
+            },
+            {
+              "X": 9.1881385,
+              "Y": 45.4602354
+            },
+            {
+              "X": 9.188216,
+              "Y": 45.4604603
+            },
+            {
+              "X": 9.1882289,
+              "Y": 45.4605143
+            },
+            {
+              "X": 9.1882548,
+              "Y": 45.4606042
+            },
+            {
+              "X": 9.1882806,
+              "Y": 45.4606672
+            },
+            {
+              "X": 9.1882935,
+              "Y": 45.4606852
+            },
+            {
+              "X": 9.1882935,
+              "Y": 45.4607032
+            },
+            {
+              "X": 9.1882936,
+              "Y": 45.4607212
+            },
+            {
+              "X": 9.1883323,
+              "Y": 45.4608291
+            },
+            {
+              "X": 9.1883453,
+              "Y": 45.4609011
+            },
+            {
+              "X": 9.1884101,
+              "Y": 45.4611441
+            },
+            {
+              "X": 9.1884102,
+              "Y": 45.4611801
+            },
+            {
+              "X": 9.1884231,
+              "Y": 45.461216
+            },
+            {
+              "X": 9.1884361,
+              "Y": 45.461261
+            },
+            {
+              "X": 9.1884365,
+              "Y": 45.461378
+            },
+            {
+              "X": 9.1884367,
+              "Y": 45.4614591
+            },
+            {
+              "X": 9.1884505,
+              "Y": 45.4617561
+            },
+            {
+              "X": 9.1884511,
+              "Y": 45.4619181
+            },
+            {
+              "X": 9.1884642,
+              "Y": 45.4620081
+            },
+            {
+              "X": 9.1884519,
+              "Y": 45.4621791
+            },
+            {
+              "X": 9.1884524,
+              "Y": 45.4623051
+            },
+            {
+              "X": 9.1884526,
+              "Y": 45.4623861
+            },
+            {
+              "X": 9.1884532,
+              "Y": 45.4625662
+            },
+            {
+              "X": 9.1884539,
+              "Y": 45.4627822
+            },
+            {
+              "X": 9.1886718,
+              "Y": 45.4629169
+            },
+            {
+              "X": 9.1888642,
+              "Y": 45.4630606
+            },
+            {
+              "X": 9.1891977,
+              "Y": 45.463339
+            },
+            {
+              "X": 9.1897091,
+              "Y": 45.4632662
+            }
+          ]
+        }
+      ],
+      "BoundingBox_NE": {
+        "X": 9.1931364,
+        "Y": 45.4705334
+      },
+      "BoundingBox_SW": {
+        "X": 9.1450962,
+        "Y": 45.3697904
+      }
+    },
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "tpl/journeyPatterns/15|0",
+        "Title": null
+      },
+      {
+        "Rel": "geom",
+        "Href": "tpl/journeyPatterns/15|0/geometry",
+        "Title": null
+      },
+      {
+        "Rel": "stops",
+        "Href": "tpl/journeyPatterns/15|0/stops",
+        "Title": null
+      }
+    ]
+  }
+
+
+  https://giromilano.atm.it/proxy.tpportal/api/tpPortal/tpl/stops/15373/timetable/line/15/dir/0
+
+  {
+    "FromDate": "2024-09-30T00:00:00",
+    "DescOrario": "Orario  in vigore dal 30/09/2024",
+    "StopCode": "15373-13",
+    "LineCode": "15",
+    "Direction": "0",
+    "TimeSchedules": [
+      {
+        "DayType": {
+          "DayTypeDescription": "Da Lunedì a Venerdì",
+          "Mon": true,
+          "Tue": true,
+          "Wed": true,
+          "Thu": true,
+          "Fri": true,
+          "Sat": false,
+          "Sun": false,
+          "Hol": false
+        },
+        "Schedule": [
+          {
+            "Hour": 3,
+            "ScheduleDetail": "02* 02*    ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 4,
+            "ScheduleDetail": "57     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 5,
+            "ScheduleDetail": "29  46     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 6,
+            "ScheduleDetail": "05  20  33  45  53     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 7,
+            "ScheduleDetail": "Ogni 6'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 8,
+            "ScheduleDetail": "Ogni 6'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 9,
+            "ScheduleDetail": "Ogni 6'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 10,
+            "ScheduleDetail": "Ogni 8'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 11,
+            "ScheduleDetail": "Ogni 9'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 12,
+            "ScheduleDetail": "Ogni 9'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 13,
+            "ScheduleDetail": "Ogni 9'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 14,
+            "ScheduleDetail": "Ogni 9'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 15,
+            "ScheduleDetail": "Ogni 8'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 16,
+            "ScheduleDetail": "Ogni 8'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 17,
+            "ScheduleDetail": "Ogni 6'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 18,
+            "ScheduleDetail": "Ogni 6'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 19,
+            "ScheduleDetail": "Ogni 6'[19:43*:55*]",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 20,
+            "ScheduleDetail": "Ogni 5'[20:13*:24*:33*:40*:58*]",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 21,
+            "ScheduleDetail": "Ogni 10'[21:11*:31*]",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 22,
+            "ScheduleDetail": "00* 13  28  43  45* 58     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 23,
+            "ScheduleDetail": "13  28  43  58     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 0,
+            "ScheduleDetail": "13  28  43  50*    ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 1,
+            "ScheduleDetail": "13  20* 25  35* 50*    ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 2,
+            "ScheduleDetail": "10* 30*    ",
+            "NightDetail": ""
+          }
+        ]
+      },
+      {
+        "DayType": {
+          "DayTypeDescription": "Sabato",
+          "Mon": false,
+          "Tue": false,
+          "Wed": false,
+          "Thu": false,
+          "Fri": false,
+          "Sat": true,
+          "Sun": false,
+          "Hol": false
+        },
+        "Schedule": [
+          {
+            "Hour": 3,
+            "ScheduleDetail": "03* 03*    ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 4,
+            "ScheduleDetail": "57     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 5,
+            "ScheduleDetail": "29  46     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 6,
+            "ScheduleDetail": "05  20  32  44  56     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 7,
+            "ScheduleDetail": "Ogni 9'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 8,
+            "ScheduleDetail": "Ogni 8'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 9,
+            "ScheduleDetail": "Ogni 8'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 10,
+            "ScheduleDetail": "Ogni 9'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 11,
+            "ScheduleDetail": "Ogni 9'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 12,
+            "ScheduleDetail": "Ogni 9'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 13,
+            "ScheduleDetail": "Ogni 9'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 14,
+            "ScheduleDetail": "Ogni 9'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 15,
+            "ScheduleDetail": "Ogni 9'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 16,
+            "ScheduleDetail": "Ogni 9'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 17,
+            "ScheduleDetail": "Ogni 9'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 18,
+            "ScheduleDetail": "Ogni 9'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 19,
+            "ScheduleDetail": "Ogni 9'   ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 20,
+            "ScheduleDetail": "Ogni 10'[20:20*:41*]",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 21,
+            "ScheduleDetail": "05  06* 18  31  33* 45  59     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 22,
+            "ScheduleDetail": "00* 14  29  30* 44  59     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 23,
+            "ScheduleDetail": "14  29  44  59     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 0,
+            "ScheduleDetail": "14  29  44  51*    ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 1,
+            "ScheduleDetail": "14  21* 36* 51*    ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 2,
+            "ScheduleDetail": "11* 31*    ",
+            "NightDetail": ""
+          }
+        ]
+      },
+      {
+        "DayType": {
+          "DayTypeDescription": "Festivo",
+          "Mon": false,
+          "Tue": false,
+          "Wed": false,
+          "Thu": false,
+          "Fri": false,
+          "Sat": false,
+          "Sun": true,
+          "Hol": true
+        },
+        "Schedule": [
+          {
+            "Hour": 3,
+            "ScheduleDetail": "03*    ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 4,
+            "ScheduleDetail": "",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 5,
+            "ScheduleDetail": "10  29  47     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 6,
+            "ScheduleDetail": "05  22  40  58     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 7,
+            "ScheduleDetail": "15  32  49     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 8,
+            "ScheduleDetail": "06  23  40  57     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 9,
+            "ScheduleDetail": "13  30  47     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 10,
+            "ScheduleDetail": "04  21  38  55     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 11,
+            "ScheduleDetail": "12  29  46     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 12,
+            "ScheduleDetail": "03  20  37  54     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 13,
+            "ScheduleDetail": "11  28  42  56     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 14,
+            "ScheduleDetail": "10  25  40  54     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 15,
+            "ScheduleDetail": "08  22  36  50     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 16,
+            "ScheduleDetail": "04  18  32  46     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 17,
+            "ScheduleDetail": "00  14  28  42  56     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 18,
+            "ScheduleDetail": "10  24  38  52     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 19,
+            "ScheduleDetail": "06  20  33  46     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 20,
+            "ScheduleDetail": "00  14  29  44  59     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 21,
+            "ScheduleDetail": "14  14* 29  44  59     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 22,
+            "ScheduleDetail": "14  29  44  59     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 23,
+            "ScheduleDetail": "14  29  44  59     ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 0,
+            "ScheduleDetail": "14  29  44  51*    ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 1,
+            "ScheduleDetail": "14  21* 26  36* 51*    ",
+            "NightDetail": ""
+          },
+          {
+            "Hour": 2,
+            "ScheduleDetail": "11* 31*    ",
+            "NightDetail": ""
+          }
+        ]
+      }
+    ],
+    "Notes": [
+      "* Limita a Castelbarco"
+    ]
+  }
