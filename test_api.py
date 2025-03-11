@@ -1,7 +1,8 @@
 import requests
 import json
-from typing import List, Dict
+from typing import List, Dict, Any
 from curl_cffi import requests as curlq
+import time
 
 def get_station_wait_times(station_code: str) -> List[Dict[str, str]]:
     """
@@ -59,23 +60,110 @@ def get_station_wait_times(station_code: str) -> List[Dict[str, str]]:
         print("Response content:", response.text)
         return []
 
-def main():
-    # Example usage
-    station_code = input("Enter station code (e.g., 15371): ")
-    wait_times = get_station_wait_times(station_code)
+def test_health() -> None:
+    """Test the health check endpoint."""
+    print("\n=== Testing Health Check Endpoint ===")
+    response = requests.get("http://localhost:3000/health")
+    print(f"Status Code: {response.status_code}")
+    print(f"Response: {json.dumps(response.json(), indent=2)}")
+
+def test_get_lines() -> None:
+    """Test the get lines endpoint."""
+    print("\n=== Testing Get Lines Endpoint ===")
+    response = requests.get("http://localhost:3000/lines")
+    print(f"Status Code: {response.status_code}")
+    print(f"Response: {json.dumps(response.json(), indent=2)}")
+
+def test_plan_trip() -> None:
+    """Test the plan trip endpoint with sample candidates."""
+    print("\n=== Testing Plan Trip Endpoint ===")
     
-    if wait_times:
-        print("\nCurrent wait times:")
-        for info in wait_times:
-            print(f"\nStop: {info['stop_name']}")
-            print(f"Line {info['line_code']} - {info['transport_mode']}")
-            print(f"Route: {info['line_description']}")
-            print(f"Wait time: {info['wait_message']}")
-            print(f"Direction: {info['direction']}")
-            if info['is_suburban']:
-                print("(Suburban line)")
+    # Sample candidates data
+    candidates = [
+        {
+            "line_code": "15",
+            "direction": "0",
+            "target_station_code": "15371",
+            "walking_time": 8
+        },
+        {
+            "line_code": "3",
+            "direction": "0",
+            "target_station_code": "11139",
+            "walking_time": 4
+        },
+        {
+            "line_code": "59",
+            "direction": "0",
+            "target_station_code": "11154",
+            "walking_time": 8
+        }
+    ]
+    
+    payload = {
+        "candidates": candidates
+    }
+    
+    # Make the POST request
+    response = requests.post(
+        "http://localhost:3000/plan",
+        json=payload,
+        headers={"Content-Type": "application/json"}
+    )
+    
+    print(f"Status Code: {response.status_code}")
+    if response.status_code == 200:
+        result = response.json()
+        
+        # Print raw JSON response
+        print("\n=== Raw JSON Response ===")
+        print(json.dumps(result, indent=2))
+        
+        print("\n=== Formatted Output ===")
+        print("Execution Time:", result.get("execution_time"), "seconds")
+        
+        # Print best option if available
+        best = result.get("best_option")
+        if best:
+            print("\nBest Option:")
+            print(f"Station/Line: {best['station_line']}")
+            print(f"Arrival in: {best['arrival']} minutes")
+            print(f"Walking time: {best['walk_time']} minutes")
+            print(f"Wait at stop: {best['wait_at_stop']} minutes")
+        
+        # Print all feasible options
+        print("\nAll Feasible Options:")
+        for station_line, trams in result.get("feasible_options", {}).items():
+            print(f"\n{station_line}:")
+            for i, tram in enumerate(trams, 1):
+                if tram["feasible"]:
+                    print(f"  Tram #{i}:")
+                    print(f"    Arrival: {tram['arrival']} minutes")
+                    print(f"    Walking time: {tram['walk_time']} minutes")
+                    print(f"    Wait at stop: {tram['wait_at_stop']} minutes")
+                    print(f"    Raw wait: {tram['raw_wait']} minutes")
     else:
-        print("No wait times available for this station.")
+        print("Error Response:", json.dumps(response.json(), indent=2))
+
+def main():
+    """Run all API tests."""
+    try:
+        # Test health endpoint
+        test_health()
+        time.sleep(1)  # Small delay between requests
+        
+        # Test get lines endpoint
+        
+          # Small delay between requests
+        
+        # Test plan trip endpoint
+        test_plan_trip()
+        
+    except requests.exceptions.ConnectionError:
+        print("\nError: Could not connect to the API server.")
+        print("Make sure the Flask API server is running (python atm_api.py)")
+    except Exception as e:
+        print(f"\nError during testing: {str(e)}")
 
 if __name__ == "__main__":
     main()
