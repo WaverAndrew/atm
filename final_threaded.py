@@ -318,6 +318,13 @@ def main():
         "3":  {"direction": "0", "target_station_code": "11139", "walking_time": 4},
         "59": {"direction": "0", "target_station_code": "11154", "walking_time": 8}
     }
+    """
+    candidates = {
+        "15": {"direction": "1", "target_station_code": "15380", "walking_time": 6},
+        "3":  {"direction": "1", "target_station_code": "11445", "walking_time": 10},
+        "59": {"direction": "1", "target_station_code": "11466", "walking_time": 5}
+    }
+    """
     update_lines_with_candidates(lines, candidates)
     
     metro_api = MetroAPI(max_workers=10)  # Adjust max_workers as needed

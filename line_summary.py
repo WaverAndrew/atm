@@ -63,6 +63,16 @@ def get_journey_pattern(line_code: str, direction: str = "0") -> Dict:
 
 def main():
     lines_data = []
+    output_file = "/Users/andre/Desktop/Coding/Python/tenv/Projects/atm/lines.json"
+    
+    # Try to load existing data
+    try:
+        with open(output_file, 'r', encoding='utf-8') as f:
+            existing_data = json.load(f)
+            lines_data = existing_data.get("lines", [])
+            print(f"Loaded {len(lines_data)} existing line configurations")
+    except (FileNotFoundError, json.JSONDecodeError):
+        print("No existing data found or file is invalid. Starting fresh.")
     
     while True:
         line_code = input("\nEnter line code (e.g., 15) or press Enter to finish: ").strip()
@@ -83,14 +93,34 @@ def main():
             result = get_journey_pattern(line_code, direction)
             
             if result:
-                lines_data.append(result)
-                print(f"✓ Added line {line_code} direction {direction}")
+                # Check if this line and direction combination already exists
+                exists = any(
+                    line["line"]["code"] == result["line"]["code"] and 
+                    line["direction"] == result["direction"] 
+                    for line in lines_data
+                )
+                
+                if exists:
+                    replace = input(f"Line {line_code} direction {direction} already exists. Replace it? (y/n): ").strip().lower()
+                    if replace == 'y':
+                        # Remove the existing entry
+                        lines_data = [
+                            line for line in lines_data 
+                            if not (line["line"]["code"] == result["line"]["code"] and 
+                                   line["direction"] == result["direction"])
+                        ]
+                        lines_data.append(result)
+                        print(f"✓ Updated line {line_code} direction {direction}")
+                    else:
+                        print(f"Skipped line {line_code} direction {direction}")
+                else:
+                    lines_data.append(result)
+                    print(f"✓ Added line {line_code} direction {direction}")
             else:
                 print(f"✗ Failed to get data for line {line_code} direction {direction}")
     
     if lines_data:
         # Save to file
-        output_file = "lines.json"
         try:
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump({"lines": lines_data}, f, indent=2, ensure_ascii=False)

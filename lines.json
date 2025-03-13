@@ -391,6 +391,373 @@
           "code": "11466"
         }
       ]
+    },
+    {
+      "line": {
+        "code": "15",
+        "description": "Tram 15 Duomo M1 M3 - Rozzano (Via G. Rossa)"
+      },
+      "direction": "1",
+      "stations": [
+        {
+          "index": 0,
+          "name": "Duomo M1 M3",
+          "code": "11512"
+        },
+        {
+          "index": 1,
+          "name": "C.so Italia  Missori M3",
+          "code": "11498"
+        },
+        {
+          "index": 2,
+          "name": "S.Sofia M4",
+          "code": "11465"
+        },
+        {
+          "index": 3,
+          "name": "C.so Italia Via Lusardi",
+          "code": "11462"
+        },
+        {
+          "index": 4,
+          "name": "P.ta Lodovica",
+          "code": "11458"
+        },
+        {
+          "index": 5,
+          "name": "Castelbarco",
+          "code": "15380"
+        },
+        {
+          "index": 6,
+          "name": "Giambologna",
+          "code": "15378"
+        },
+        {
+          "index": 7,
+          "name": "Tibaldi",
+          "code": "15376"
+        },
+        {
+          "index": 8,
+          "name": "Pezzotti",
+          "code": "15374"
+        },
+        {
+          "index": 9,
+          "name": "G. Da Cermenate",
+          "code": "15372"
+        },
+        {
+          "index": 10,
+          "name": "Volvinio",
+          "code": "15370"
+        },
+        {
+          "index": 11,
+          "name": "Agrippa",
+          "code": "15368"
+        },
+        {
+          "index": 12,
+          "name": "Medeghino",
+          "code": "15366"
+        },
+        {
+          "index": 13,
+          "name": "P.za Abbiategrasso M2",
+          "code": "11130"
+        },
+        {
+          "index": 14,
+          "name": "Via dei Missaglia Via Boifava",
+          "code": "11112"
+        },
+        {
+          "index": 15,
+          "name": "Via dei Missaglia Via S. Abbondio",
+          "code": "11109"
+        },
+        {
+          "index": 16,
+          "name": "Via dei Missaglia  Isola Anita",
+          "code": "11107"
+        },
+        {
+          "index": 17,
+          "name": "Via dei Missaglia Via De Ruggiero",
+          "code": "11106"
+        },
+        {
+          "index": 18,
+          "name": "Via Dei Missaglia Via Feraboli",
+          "code": "11082"
+        },
+        {
+          "index": 19,
+          "name": "Via dei Missaglia Via Saponaro",
+          "code": "11080"
+        },
+        {
+          "index": 20,
+          "name": "Via dei Missaglia  Scuola Santarosa",
+          "code": "11096"
+        },
+        {
+          "index": 21,
+          "name": "Gratosoglio",
+          "code": "11094"
+        },
+        {
+          "index": 22,
+          "name": "Via Curiel Via Maggi  Rozzano",
+          "code": "11088"
+        },
+        {
+          "index": 23,
+          "name": "Via Curiel Via Lambro  Rozzano",
+          "code": "11067"
+        },
+        {
+          "index": 24,
+          "name": "Via Curiel Viale Isonzo  Rozzano",
+          "code": "11065"
+        },
+        {
+          "index": 25,
+          "name": "Via Grandi Via Buozzi  Rozzano",
+          "code": "11062"
+        },
+        {
+          "index": 26,
+          "name": "V.le Romagna  Rozzano",
+          "code": "11061"
+        },
+        {
+          "index": 27,
+          "name": "ROZZANO  Via Cabrini",
+          "code": "18077"
+        },
+        {
+          "index": 28,
+          "name": "V.le Don Lonni  Rozzano",
+          "code": "18079"
+        },
+        {
+          "index": 29,
+          "name": "V.le Liguria Via delle Mimose  Rozzano",
+          "code": "18081"
+        },
+        {
+          "index": 30,
+          "name": "V.le Liguria Via G.Rossa  Rozzano",
+          "code": "18083"
+        },
+        {
+          "index": 31,
+          "name": "ROZZANO  Via G.Rossa",
+          "code": "18076"
+        }
+      ]
+    },
+    {
+      "line": {
+        "code": "3",
+        "description": "Tram 3 Duomo M1 M3 - Gratosoglio"
+      },
+      "direction": "1",
+      "stations": [
+        {
+          "index": 0,
+          "name": "Duomo M1 M3",
+          "code": "11490"
+        },
+        {
+          "index": 1,
+          "name": "Duomo M1 M3",
+          "code": "11502"
+        },
+        {
+          "index": 2,
+          "name": "Via Torino Via Palla",
+          "code": "14187"
+        },
+        {
+          "index": 3,
+          "name": "Via Torino Via S. Maria Valle",
+          "code": "11484"
+        },
+        {
+          "index": 4,
+          "name": "Carrobbio",
+          "code": "11480"
+        },
+        {
+          "index": 5,
+          "name": "Colonne di S.Lorenzo",
+          "code": "15078"
+        },
+        {
+          "index": 6,
+          "name": "P.za Ventiquattro Maggio",
+          "code": "11445"
+        },
+        {
+          "index": 7,
+          "name": "C.so S. Gottardo Via Lagrange",
+          "code": "11442"
+        },
+        {
+          "index": 8,
+          "name": "L.go Mahler",
+          "code": "11169"
+        },
+        {
+          "index": 9,
+          "name": "V.le Tibaldi Via Meda",
+          "code": "11168"
+        },
+        {
+          "index": 10,
+          "name": "Via Meda Via Spaventa",
+          "code": "11164"
+        },
+        {
+          "index": 11,
+          "name": "Via Montegani V.le Da Cermenate",
+          "code": "11162"
+        },
+        {
+          "index": 12,
+          "name": "Via Montegani Via Palmieri",
+          "code": "11138"
+        },
+        {
+          "index": 13,
+          "name": "Via Montegani Via Neera",
+          "code": "11135"
+        },
+        {
+          "index": 14,
+          "name": "P.za Abbiategrasso M2",
+          "code": "11130"
+        },
+        {
+          "index": 15,
+          "name": "Via dei Missaglia Via Boifava",
+          "code": "11112"
+        },
+        {
+          "index": 16,
+          "name": "Via dei Missaglia Via S. Abbondio",
+          "code": "11109"
+        },
+        {
+          "index": 17,
+          "name": "Via dei Missaglia  Isola Anita",
+          "code": "11107"
+        },
+        {
+          "index": 18,
+          "name": "Via dei Missaglia Via De Ruggiero",
+          "code": "11106"
+        },
+        {
+          "index": 19,
+          "name": "Via Dei Missaglia Via Feraboli",
+          "code": "11082"
+        },
+        {
+          "index": 20,
+          "name": "Via dei Missaglia Via Saponaro",
+          "code": "11080"
+        },
+        {
+          "index": 21,
+          "name": "Via dei Missaglia  Scuola Santarosa",
+          "code": "11096"
+        },
+        {
+          "index": 22,
+          "name": "Gratosoglio",
+          "code": "11091"
+        }
+      ]
+    },
+    {
+      "line": {
+        "code": "59",
+        "description": "Bus 59 P.ta Lodovica - Famagosta M2"
+      },
+      "direction": "1",
+      "stations": [
+        {
+          "index": 0,
+          "name": "P.ta Lodovica",
+          "code": "11466"
+        },
+        {
+          "index": 1,
+          "name": "Via Bocconi Via Sarfatti",
+          "code": "11470"
+        },
+        {
+          "index": 2,
+          "name": "Via Tabacchi Via Balilla",
+          "code": "17376"
+        },
+        {
+          "index": 3,
+          "name": "L.go Mahler",
+          "code": "11170"
+        },
+        {
+          "index": 4,
+          "name": "Alzaia Nav. Pavese, 60",
+          "code": "11161"
+        },
+        {
+          "index": 5,
+          "name": "V.le Liguria",
+          "code": "11159"
+        },
+        {
+          "index": 6,
+          "name": "Alzaia Nav. Pavese Via Rimini",
+          "code": "11158"
+        },
+        {
+          "index": 7,
+          "name": "Via Spezia",
+          "code": "11153"
+        },
+        {
+          "index": 8,
+          "name": "P.za Maggi",
+          "code": "11121"
+        },
+        {
+          "index": 9,
+          "name": "Via Fra Cristoforo Via Renzo e Lucia",
+          "code": "11127"
+        },
+        {
+          "index": 10,
+          "name": "Via Fra Cristoforo Via Don Rodrigo",
+          "code": "11120"
+        },
+        {
+          "index": 11,
+          "name": "Via Donna Prassede C.na Caimera",
+          "code": "17720"
+        },
+        {
+          "index": 12,
+          "name": "Famagosta M2",
+          "code": "13769"
+        }
+      ]
     }
   ]
 }
