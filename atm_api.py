@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from final_threaded import (
+from final_threaded_with_destination import (
     MetroAPI, TripPlanner, load_lines_from_file,
     update_lines_with_candidates, Line, Station
 )
@@ -50,15 +50,24 @@ def health_check():
 @app.route('/plan', methods=['POST'])
 def plan_trip():
     """
-    Plan a trip based on provided candidates.
+    Plan a trip based on provided start and end candidates.
     Expected JSON body:
     {
-        "candidates": [
+        "start_candidates": [
             {
                 "line_code": "15",
                 "direction": "0",
                 "target_station_code": "15371",
                 "walking_time": 8
+            },
+            ...
+        ],
+        "end_candidates": [
+            {
+                "line_code": "15",
+                "direction": "0",
+                "target_station_code": "15379",
+                "walking_time": 4
             },
             ...
         ]
@@ -70,25 +79,35 @@ def plan_trip():
         
         # Get request data
         data = request.get_json()
-        if not data or 'candidates' not in data:
+        if not data or 'start_candidates' not in data or 'end_candidates' not in data:
             return jsonify({
-                "error": "Missing candidates array in request body"
+                "error": "Missing start_candidates or end_candidates arrays in request body"
             }), 400
             
-        candidates = data['candidates']
+        start_candidates = data['start_candidates']
+        end_candidates = data['end_candidates']
         
         # Convert candidates to the format expected by update_lines_with_candidates
-        candidates_dict = {
+        start_candidates_dict = {
             str(c['line_code']): {
                 "direction": str(c['direction']),
                 "target_station_code": str(c['target_station_code']),
                 "walking_time": int(c['walking_time'])
             }
-            for c in candidates
+            for c in start_candidates
+        }
+        
+        end_candidates_dict = {
+            str(c['line_code']): {
+                "direction": str(c['direction']),
+                "target_station_code": str(c['target_station_code']),
+                "walking_time": int(c['walking_time'])
+            }
+            for c in end_candidates
         }
         
         # Update lines with candidates
-        update_lines_with_candidates(_lines, candidates_dict)
+        update_lines_with_candidates(_lines, start_candidates_dict, end_candidates_dict)
         
         # Get trip plan
         start_time = time.time()
@@ -112,7 +131,10 @@ def plan_trip():
                     "walk_time": info['walk_time'],
                     "wait_at_stop": info['wait_at_stop'],
                     "raw_wait": info['raw_wait'],
-                    "station_idx": info['station_idx']
+                    "station_idx": info['station_idx'],
+                    "total_travel_time": round(info['total_travel_time'], 1),
+                    "final_walking_time": info['final_walking_time'],
+                    "total_time": round(info['total_time'], 1)
                 }
                 for info in tram_infos
             ]
@@ -125,7 +147,10 @@ def plan_trip():
                 "station_line": sl,
                 "arrival": round(tinfo['arrival'], 1),
                 "walk_time": tinfo['walk_time'],
-                "wait_at_stop": tinfo['wait_at_stop']
+                "wait_at_stop": tinfo['wait_at_stop'],
+                "total_travel_time": round(tinfo['total_travel_time'], 1),
+                "final_walking_time": tinfo['final_walking_time'],
+                "total_time": round(tinfo['total_time'], 1)
             }
         
         return jsonify(response)
